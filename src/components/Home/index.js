@@ -22,7 +22,7 @@ const DATA = [
 
 const Item = ({src}) => (
   <View>
-    <Image style={{width: 300, height: 300}} source={src} />
+    <Image style={{width: '100%', height: 300}} source={src} />
     <Text>{src}</Text>
   </View>
 );
